@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "company_name": "Amazon",
+        "position": "Testing Associate",
+        "qualifications": "B.E ,B.Tech. ,MSC IT and MCA",
+        "experience": "Freshers",
+        "location": "Chennai",
+        "image_url": "https://zva3bc.p3cdn1.secureserver.net/wp-content/uploads/2023/04/amazon.png"
+    },
+    {
+        "id": 2,
+        "company_name": "Jio",
+        "position": "IOS Developer",
+        "qualifications": "B.E./B.Tech degree in any discipline",
+        "experience": "0 – 4 Years",
+        "location": "",
+        "image_url": "https://example.com/jio_logo.png"
+    },
+    {
+        "id": 3,
+        "company_name": "Ford",
+        "position": "Software Engineer",
+        "qualifications": "B.E, B.Tech, MCA Batch 2017/18/19/20/21/22/23",
+        "experience": "0 – 2 Years",
+        "location": "",
+        "image_url": "https://example.com/ford_logo.png"
+    },
+    {
+        "id": 4,
+        "company_name": "Zadara",
+        "position": "Software Engineer Intern",
+        "qualifications": "Studying for BE/Btech in computer science/SW engineering",
+        "experience": "",
+        "location": "",
+        "image_url": "https://example.com/zadara_logo.png"
+    },
+    {
+        "id": 5,
+        "company_name": "Cencora",
+        "position": "Engineer I – Quality & Testing (IN)",
+        "qualifications": "Bachelor’s Degree in Computer",
+        "experience": "",
+        "location": "",
+        "image_url": "https://example.com/cencora_logo.png"
+    },
+    {
+        "id": 6,
+        "company_name": "Zycus",
+        "position": "Software Engineer",
+        "qualifications": "Bachelor’s degree in Computer Science, Computer Engineering, or a related field",
+        "experience": "",
+        "location": "",
+        "image_url": "https://example.com/zycus_logo.png"
+    },
+    {
+        "id": 7,
+        "company_name": "Ericsson",
+        "position": "Associate Engineer Trainee",
+        "qualifications": "Bachelor’s degree in Computer Science, Information Technology, or related field",
+        "experience": "",
+        "location": "",
+        "image_url": "https://example.com/ericsson_logo.png"
+    },
+    {
+        "id": 8,
+        "company_name": "Uber",
+        "position": "Research Internship",
+        "qualifications": "BA/BS in Computer Science, Design, Human-Computer Interaction, Literature Cognitive Science, Experimental",
+        "experience": "",
+        "location": "",
+        "image_url": "https://example.com/uber_logo.png"
+    },
+    {
+        "id": 9,
+        "company_name": "Phonepe",
+        "position": "Software Engineer",
+        "qualifications": "BTech, MTech, or Ph.D. in Computer Science or related technical discipline",
+        "experience": "",
+        "location": "",
+        "image_url": "https://example.com/phonepe_logo.png"
+    },
+    {
+        "id": 10,
+        "company_name": "S&P Global",
+        "position": "Software Engineer",
+        "qualifications": "Bachelor’s/Master’s degree",
+        "experience": "0 – 2 Years",
+        "location": "Gurgaon",
+        "image_url": "https://example.com/sp_global_logo.png"
+    }
+]
