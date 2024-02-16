@@ -47,9 +47,9 @@ const Main = () => {
                       <h5 className="card-title">{job.company_name}</h5>
                     </span>
                     <span className="flex"><h2 className="font-bold text-blue-400">Position :</h2><p className="card-text">{job.position}</p></span>
-                    <span className="flex"><h2 className="font-bold text-blue-400">Qualifications & Experience :</h2><p className="card-text">
+                    {/* <span className="flex"><h2 className="font-bold text-blue-400">Qualifications & Experience :</h2><p className="card-text">
                       {job.qualifications} | {job.experience} | {job.location}
-                    </p></span>
+                    </p></span> */}
                     <div class="flex justify-center items-center p-2">
                       <Link to={`/job/${job.id}`}
                       style={{ textDecoration: "none" }}>
