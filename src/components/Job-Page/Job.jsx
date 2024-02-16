@@ -54,7 +54,7 @@ const Job = () => {
                     />
                     <span className="flex justify-center w-full p-4">
                       <Chip
-                        className="w-full px-28 py-5 bg-blue-200 text-black text-2xl font-semibold"
+                        className="sm:w-2/3 w-full sm:px-8 py-6 lg:px-24 bg-blue-200 text-black text-2xl font-semibold"
                         color="primary"
                         variant="dot"
                       >
@@ -67,7 +67,7 @@ const Job = () => {
                           startContent={
                             <CheckIcon size={32} height={36} width={36} />
                           }
-                          className="w-full px-16 py-5 text-2xl font-semibold"
+                          className="sm:w-2/3 w-full sm:px-12 py-6 lg:px-2 text-2xl font-semibold"
                           variant="faded"
                           color="success"
                         >
@@ -81,7 +81,7 @@ const Job = () => {
                           }
                           className="w-full text-2xl py-4 font-bold text-blue-400"
                         >
-                          Qualifications & Experience :
+                          Qualifications:
                         </Chip>
                       </div>
                       <div>
