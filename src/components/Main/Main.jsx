@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
 import { Button } from "@nextui-org/react";
+import { Link } from "react-router-dom";
 import "./Main.css";
 import "animate.css";
 const Main = () => {
@@ -46,10 +47,12 @@ const Main = () => {
                       <h5 className="card-title">{job.company_name}</h5>
                     </span>
                     <span className="flex"><h2 className="font-bold text-blue-400">Position :</h2><p className="card-text">{job.position}</p></span>
-                    <span className="flex"><h2 className="font-bold text-blue-400">Qualifications :</h2><p className="card-text">
+                    <span className="flex"><h2 className="font-bold text-blue-400">Qualifications & Experience :</h2><p className="card-text">
                       {job.qualifications} | {job.experience} | {job.location}
                     </p></span>
                     <div class="flex justify-center items-center p-2">
+                      <Link to={`/job/${job.id}`}
+                      style={{ textDecoration: "none" }}>
                       <Button
                         className="p-5 font-bold"
                         color="primary"
@@ -57,6 +60,7 @@ const Main = () => {
                       >
                         APPLY NOW
                       </Button>
+                      </Link>
                     </div>
                   </div>
                 </div>

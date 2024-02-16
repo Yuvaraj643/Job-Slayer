@@ -5,10 +5,12 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nex
 export default function App() {
   return (
     <Navbar shouldHideOnScroll>
+    <Link href="/" className="text-decoration-none" aria-label="Acme Logo">
       <NavbarBrand>
         {/* <AcmeLogo /> */}
         <p className="font-bold text-inherit">JOB-SLAYER</p>
       </NavbarBrand>
+    </Link>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
           <Link color="foreground" href="#">

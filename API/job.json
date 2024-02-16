@@ -3,11 +3,22 @@
         "id": 1,
         "company_name": "Amazon",
         "position": "Testing Associate",
-        "qualifications": "B.E ,B.Tech. ,MSC IT and MCA",
+        "description": "As a Testing Associate at Amazon, you will be responsible for ensuring the quality and reliability of software products through rigorous testing procedures. You will work closely with development teams to identify and report bugs, conduct various types of testing including functional, regression, and performance testing, and contribute to the overall improvement of product quality.",
+        "responsibilities": [
+          "Conduct functional, regression, and performance testing on software products.",
+          "Identify and report bugs and inconsistencies in software applications.",
+          "Work closely with development teams to understand product requirements and ensure test coverage.",
+          "Develop and execute test cases and test plans.",
+          "Participate in the continuous improvement of testing processes and methodologies.",
+          "Collaborate with cross-functional teams to deliver high-quality software products."
+        ],
+        "qualifications": "Candidates for this position should have a B.E., B.Tech., MSC IT, or MCA degree in Computer Science, Information Technology, or a related field. Freshers are welcome to apply.",
         "experience": "Freshers",
         "location": "Chennai",
-        "image_url": "https://zva3bc.p3cdn1.secureserver.net/wp-content/uploads/2023/04/amazon.png"
-    },
+        "image_url": "https://zva3bc.p3cdn1.secureserver.net/wp-content/uploads/2023/04/amazon.png",
+        "apply_url": "https://www.amazon.jobs/"
+      },
+      
     {
         "id": 2,
         "company_name": "Jio",
