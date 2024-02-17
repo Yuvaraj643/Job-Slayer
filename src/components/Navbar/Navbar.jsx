@@ -13,11 +13,12 @@ export default function App() {
     </Link>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#">
+
+          <Link color="foreground" href="/">
             Off-Campus
           </Link>
         </NavbarItem>
-        <NavbarItem isActive>
+        {/* <NavbarItem isActive>
           <Link href="#" aria-current="page">
             Internships
           </Link>
@@ -26,7 +27,7 @@ export default function App() {
           <Link color="foreground" href="#">
             Remote
           </Link>
-        </NavbarItem>
+        </NavbarItem> */}
       </NavbarContent>
       {/* <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
