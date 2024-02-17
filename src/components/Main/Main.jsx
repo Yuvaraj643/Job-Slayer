@@ -5,19 +5,7 @@ import { Link } from "react-router-dom";
 import "./Main.css";
 import "animate.css";
 const Main = () => {
-  useEffect(() => {
-    const scriptElement = document.createElement("script");
-    scriptElement.type = "text/javascript";
-    scriptElement.src =
-      "//www.topcreativeformat.com/bcce2da51fe452d41db7aac23315ea62/invoke.js";
 
-    const scriptContainer = document.getElementById("ad-container");
-    scriptContainer.appendChild(scriptElement);
-
-    return () => {
-      scriptContainer.removeChild(scriptElement);
-    };
-  }, []);
   const [jobs, setJobs] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
@@ -40,7 +28,6 @@ const Main = () => {
       <section id="main" className="flex justify-evenly">
         <div id="ad-1" className="w-1/4">
           <div id="container-08c4cc65c91406f4af9cb3825e099e0e"></div>
-          <div id="ad-container" />
         </div>
 
         <Card id="main-card" className="py-2 md:w-5/6 sm:w-4/6">
@@ -95,7 +82,6 @@ const Main = () => {
         </Card>
         <div id="ad-1" className="w-1/4">
           <div id="container-97f981e02c411bf3152233af4cbb8445"></div>
-          <div id="ad-container" />
         </div>
       </section>
     </>
