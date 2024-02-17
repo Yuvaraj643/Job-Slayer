@@ -67,11 +67,11 @@ const Job = () => {
                           startContent={
                             <CheckIcon size={32} height={36} width={36} />
                           }
-                          className="sm:w-2/3 w-full sm:px-12 py-6 lg:px-2 text-2xl font-semibold"
+                          className="w-full px-auto py-2 sm:px-4 lg:px-2 text-2xl font-semibold py-6 truncate"
                           variant="faded"
                           color="success"
                         >
-                          Position : {job.position}
+                          {job.position}
                         </Chip>
                       </span>
                       <div className="flex py-4">
@@ -126,90 +126,90 @@ const Job = () => {
               ))}
             </div>
           </CardBody>
-          
         </Card>
         <section className="overflow-visible py-2 sm:w-100 md:w-5/6 mx-auto">
-        <div className="w-full mx-auto p-10">
-          <h2 className="font-bold mb-2">Resume Do’s:</h2>
-          <ul className="list-disc list-inside">
-            <li>
-              Prioritize your contact information, prominently displaying your
-              name, phone number, email address, and LinkedIn profile (if
-              applicable) at the top of your resume.
-            </li>
-            <li>
-              Craft a succinct professional summary or objective statement that
-              articulately conveys your career goals and highlights your key
-              skills and experiences.
-            </li>
-            <li>
-              Showcase your relevant work experience, internships, or projects,
-              emphasizing your achievements and duties.
-            </li>
-            <li>
-              Highlight your technical proficiency, including programming
-              languages, tools, and software relevant to the job you're applying
-              for.
-            </li>
-            <li>
-              Provide a clear overview of your educational background, listing
-              the institution, degree obtained, major, and graduation date.
-            </li>
-            <li>
-              Mention any certifications, training programs, or workshops
-              completed that are pertinent to the position.
-            </li>
-          </ul>
-          <h2 className="font-bold mb-2 pt-4">Resume Dont’s:</h2>
-          <ul className="list-disc list-inside">
-            <li>
-              Avoid including irrelevant personal information such as marital
-              status, gender, and date of birth. Stick to professional details.
-            </li>
-            <li>
-              Refrain from providing false information; honesty about your
-              skills is crucial as employers may verify during the hiring
-              process.
-            </li>
-            <li>
-              Customize your resume for each job application instead of using a
-              generic one-size-fits-all approach.
-            </li>
-            <li>
-              Omit references directly from the resume; consider providing a
-              separate reference page if requested by the employer.
-            </li>
-            <li>
-              Steer clear of lengthy paragraphs; opt for bullet points and
-              concise sentences to enhance readability.
-            </li>
-          </ul>
-        </div>
-
-        <div class="flex justify-center items-center">
-          <button class="flex align-center justify-center bg-gray-950 text-gray-400 border border-gray-400 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group">
-            <span class="bg-gray-400 shadow-gray-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
-            Apply Now
-          </button>
-        </div>
-
-        <div class="button-container p-5 flex items-center justify-center transition duration-300 cursor-pointer">
-          <div class="glass-btn blue-btn mx-4">
-            <img
-              src="https://www.pngitem.com/pimgs/b/40-404856_whatsapp-png-transparente.png"
-              alt="facebook"
-              class="w-14"
-            />
+          <div className="w-full mx-auto p-10">
+            <h2 className="font-bold mb-2">Resume Do’s:</h2>
+            <ul className="list-disc list-inside">
+              <li>
+                Prioritize your contact information, prominently displaying your
+                name, phone number, email address, and LinkedIn profile (if
+                applicable) at the top of your resume.
+              </li>
+              <li>
+                Craft a succinct professional summary or objective statement
+                that articulately conveys your career goals and highlights your
+                key skills and experiences.
+              </li>
+              <li>
+                Showcase your relevant work experience, internships, or
+                projects, emphasizing your achievements and duties.
+              </li>
+              <li>
+                Highlight your technical proficiency, including programming
+                languages, tools, and software relevant to the job you're
+                applying for.
+              </li>
+              <li>
+                Provide a clear overview of your educational background, listing
+                the institution, degree obtained, major, and graduation date.
+              </li>
+              <li>
+                Mention any certifications, training programs, or workshops
+                completed that are pertinent to the position.
+              </li>
+            </ul>
+            <h2 className="font-bold mb-2 pt-4">Resume Dont’s:</h2>
+            <ul className="list-disc list-inside">
+              <li>
+                Avoid including irrelevant personal information such as marital
+                status, gender, and date of birth. Stick to professional
+                details.
+              </li>
+              <li>
+                Refrain from providing false information; honesty about your
+                skills is crucial as employers may verify during the hiring
+                process.
+              </li>
+              <li>
+                Customize your resume for each job application instead of using
+                a generic one-size-fits-all approach.
+              </li>
+              <li>
+                Omit references directly from the resume; consider providing a
+                separate reference page if requested by the employer.
+              </li>
+              <li>
+                Steer clear of lengthy paragraphs; opt for bullet points and
+                concise sentences to enhance readability.
+              </li>
+            </ul>
           </div>
 
-          <div class="glass-btn red-btn mx-4">
-            <img
-              src="https://psfonttk.com/wp-content/uploads/2020/09/Instagram-Logo-Transparent-1024x987.png"
-              alt="youtube"
-              class="w-16"
-            />
+          <div class="flex justify-center items-center">
+            <button class="flex align-center justify-center bg-gray-950 text-gray-400 border border-gray-400 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group">
+              <span class="bg-gray-400 shadow-gray-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
+              Apply Now
+            </button>
           </div>
-        </div>
+
+          <div class="button-container p-5 flex items-center justify-center transition duration-300 cursor-pointer">
+            <div class="glass-btn blue-btn mx-4">
+              <img
+                src="https://www.pngitem.com/pimgs/b/40-404856_whatsapp-png-transparente.png"
+                alt="facebook"
+                class="w-14"
+              />
+            </div>
+
+            <div class="glass-btn red-btn mx-4">
+              <img
+                src="https://psfonttk.com/wp-content/uploads/2020/09/Instagram-Logo-Transparent-1024x987.png"
+                alt="youtube"
+                class="w-16"
+              />
+            </div>
+          </div>
         </section>
       </section>
     </>
