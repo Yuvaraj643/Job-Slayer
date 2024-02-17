@@ -45,10 +45,10 @@ const Main = () => {
     <>
       <div className="flex justify-center">
         <Input
-          className="animate__animated animate__fadeInDown w-2/3 lg:w-2/5 pb-4"
+          className="animate__animated animate__fadeInDown w-full lg:w-3/5 sm:w-2/3 pb-4 px-5"
           key="outside"
           type="email"
-          label="🕵️Search Jobs,Company,Location👀👀"
+          label="Search for Jobs, Company, Location"
           labelPlacement="outside"
           onChange={handleSearchChange}
         />
@@ -84,7 +84,7 @@ const Main = () => {
                         <h5 className="card-title">{job.company_name}</h5>
                       </span>
                       <span className="flex">
-                        <h2 className="font-bold text-blue-400">Position :</h2>
+                        <h2 className="font-bold text-blue-400">Position:</h2>
                         <p className="card-text px-2">{job.position}</p>
                       </span>
                       <span className="flex">
