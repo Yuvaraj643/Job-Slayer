@@ -25,10 +25,6 @@ const Job = () => {
 
     fetchJobData();
   }, []);
-
-  // const handleJobClick = (id) => {
-  //   setSelectedJobId(id);
-  // };
   return (
     <>
       <section>
