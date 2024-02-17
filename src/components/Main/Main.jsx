@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import "./Main.css";
 import "animate.css";
 const Main = () => {
-
   const [jobs, setJobs] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
@@ -54,11 +53,25 @@ const Main = () => {
                       </span>
                       <span className="flex">
                         <h2 className="font-bold text-blue-400">Position :</h2>
-                        <p className="card-text">{job.position}</p>
+                        <p className="card-text px-2">{job.position}</p>
                       </span>
-                      {/* <span className="flex"><h2 className="font-bold text-blue-400">Qualifications & Experience :</h2><p className="card-text">
-                      {job.qualifications} | {job.experience} | {job.location}
-                    </p></span> */}
+                      <span className="flex">
+                        <h2 className="font-bold text-blue-400">
+                          Experience :
+                        </h2>
+                        <p className="card-text px-2">{job.experience}</p>
+                      </span>
+                      <span className="flex">
+                        <h2 className="font-bold text-blue-400">
+                          Location:
+                        </h2>
+                        <p className="card-text px-2">{job.location}</p>
+                      </span><span className="flex">
+                        <h2 className="font-bold text-blue-400">
+                          Salary :
+                        </h2>
+                        <p className="card-text px-2">{job.salary}</p>
+                      </span>
                       <div class="flex justify-center items-center p-2">
                         <Link
                           to={`/job/${job.id}`}
