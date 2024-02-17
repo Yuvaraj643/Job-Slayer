@@ -27,8 +27,11 @@ const Main = () => {
   useEffect(() => {
     const filterJobs = () => {
       setFilteredJobs(
-        jobs.filter((job) =>
-          job.position.toLowerCase().includes(searchQuery.toLowerCase())
+        jobs.filter(
+          (job) =>
+            job.position.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            job.location.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            job.company_name.toLowerCase().includes(searchQuery.toLowerCase())
         )
       );
     };
@@ -45,7 +48,7 @@ const Main = () => {
           className="animate__animated animate__fadeInDown w-2/3 lg:w-2/5 pb-4"
           key="outside"
           type="email"
-          label="🕵️Search for Jobs👀👀"
+          label="🕵️Search Jobs,Company,Location👀👀"
           labelPlacement="outside"
           onChange={handleSearchChange}
         />
@@ -62,7 +65,9 @@ const Main = () => {
           </CardHeader>
           <CardBody className="overflow-visible py-2 sm:w-100  mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-1 sm:grid-cols-1 gap-5">
-            {filteredJobs.length === 0 && <p className="text-center text-2xl py-4">No jobs found🥲</p>}
+              {filteredJobs.length === 0 && (
+                <p className="text-center text-2xl py-4">No jobs found🥲</p>
+              )}
               {filteredJobs.map((job) => (
                 <div key={job.id}>
                   <div className="card animate__animated animate__fadeInDown">
