@@ -198,24 +198,29 @@ const Job = () => {
                   </a>
                 </div>
                 <div class="flex justify-center items-center">
-                  <h1 className="pt-5 text-2xl underline text-blue-400">Follow us on</h1>
+                  <h1 className="pt-5 text-2xl underline text-blue-400">
+                    Follow us on
+                  </h1>
                 </div>
-
                 <div class="button-container p-5 flex items-center justify-center transition duration-300 cursor-pointer">
                   <div class="glass-btn blue-btn mx-4">
-                    <img
-                      src="https://www.pngitem.com/pimgs/b/40-404856_whatsapp-png-transparente.png"
-                      alt="facebook"
-                      class="w-14"
-                    />
+                    <Link to="https://t.me/+jbr5lxoDBgU4ODVl">
+                      <img
+                        src="https://th.bing.com/th/id/OIP.695tufSi_FCv1xtBdFns7QHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                        alt="facebook"
+                        class="w-14"
+                      />
+                    </Link>
                   </div>
 
                   <div class="glass-btn red-btn mx-4">
-                    <img
-                      src="https://psfonttk.com/wp-content/uploads/2020/09/Instagram-Logo-Transparent-1024x987.png"
-                      alt="youtube"
-                      class="w-16"
-                    />
+                    <Link to="https://www.instagram.com/job.slayer/">
+                      <img
+                        src="https://psfonttk.com/wp-content/uploads/2020/09/Instagram-Logo-Transparent-1024x987.png"
+                        alt="youtube"
+                        class="w-16"
+                      />
+                    </Link>
                   </div>
                 </div>
               </section>
