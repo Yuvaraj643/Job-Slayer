@@ -16,14 +16,16 @@ const Main = () => {
           "https://yuvaraj643.github.io/Job-Slayer-API/job.json"
         );
         const data = await response.json();
-        setJobs(data);
+        const reversedJobs = data.reverse();
+        setJobs(reversedJobs);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
     };
-
+  
     fetchData();
   }, []);
+  
   useEffect(() => {
     const filterJobs = () => {
       setFilteredJobs(
