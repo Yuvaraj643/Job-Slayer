@@ -22,10 +22,10 @@ const Main = () => {
         console.error("Error fetching data:", error);
       }
     };
-  
+
     fetchData();
   }, []);
-  
+
   useEffect(() => {
     const filterJobs = () => {
       setFilteredJobs(
@@ -80,11 +80,16 @@ const Main = () => {
                     />
                     <div className="card-body text-lg">
                       <span className="flex">
+                        <h2 className="text-red-400">Date Posted :</h2>
+                        <h5 className="card-title text-"> {job.date}</h5>
+                      </span>
+                      <span className="flex">
                         <h2 className="font-bold text-blue-400">
                           Company Name :
                         </h2>
                         <h5 className="card-title">{job.company_name}</h5>
                       </span>
+
                       <span className="flex">
                         <h2 className="font-bold text-blue-400">Position:</h2>
                         <p className="card-text px-2">{job.position}</p>
@@ -95,14 +100,14 @@ const Main = () => {
                         </h2>
                         <p className="card-text px-2">{job.experience}</p>
                       </span>
-                      <span className="flex">
+                      {/* <span className="flex">
                         <h2 className="font-bold text-blue-400">Location:</h2>
                         <p className="card-text px-2">{job.location}</p>
                       </span>
                       <span className="flex">
                         <h2 className="font-bold text-blue-400">Salary :</h2>
                         <p className="card-text px-2">{job.salary}</p>
-                      </span>
+                      </span> */}
                       <div class="flex justify-center items-center p-2">
                         <Link
                           to={`/job/${job.id}`}

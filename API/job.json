@@ -3,7 +3,7 @@
     "id": 1,
     "company_name": "Infor",
     "position": "Software Engineer, Associate",
-    "date" : "24-02-2024",
+    "date" : "February 24, 2024",
     "description": "As a Software Engineer, Associate at Infor, you will be part of a team responsible for researching, maintaining, and enhancing a large ERP cloud suite application. You will work on software maintenance, development, and testing using various technologies including C# and SQL DB. Additionally, you will review and contribute to functional business requirements, exercise judgment in selecting methods and techniques for obtaining solutions, and demonstrate a desire to learn and adapt to the latest technologies.",
     "responsibilities": [
       "Work as part of a team to research, maintain, and enhance a large ERP cloud suite application.",
@@ -24,7 +24,7 @@
     "id": 2,
     "company_name": "Verizon",
     "position": "Cloud Engineer",
-    "date" : "24-02-2024",
+    "date" : "February 24, 2024",
     "description": "Verizon is hiring a Cloud Engineer to spearhead initiatives in architecting and crafting new user experiences. Responsibilities include detailing and refining reusable patterns, collaborating with product stakeholders, wireframing, prototyping, and iterating interfaces. The role involves researching and analyzing customers, partners, and competitors to identify personas and develop content accordingly.",
     "responsibilities": [
       "Spearhead initiatives in architecting and crafting new user experiences.",
@@ -45,7 +45,7 @@
     "id": 3,
     "company_name": "Ericsson",
     "position": "Software Engineer Trainee",
-    "date" : "24-02-2024",
+    "date" : "February 24, 2024",
     "description": "Ericsson is hiring Software Engineer Trainees to join their Research & Development teams in Bangalore. The role involves development, support, maintenance, and implementation of small to medium non-complex components of a project module. Responsibilities include designing, developing, improving, maintaining, and documenting assigned modules, adhering to quality and coding standards, and participating in a project team of engineers involved in software development.",
     "responsibilities": [
       "Develop, support, maintain, and implement small to medium non-complex components of a project module.",
@@ -66,7 +66,7 @@
     "id": 4,
     "company_name": "Accenture",
     "position": "Packaged App Development Associate",
-    "date" : "24-02-2024",
+    "date" : "February 24, 2024",
     "description": "Accenture is hiring Packaged App Development Associates to join their team in various locations. The role involves designing, building, testing, assembling, supporting, and configuring applications based on business requirements. Responsibilities also include understanding business drivers, incorporating technology trends into solutions, and providing incident resolution and customer support.",
     "responsibilities": [
       "Design, build, test, assemble, support, and configure applications based on business requirements.",
@@ -87,7 +87,7 @@
     "id": 5,
     "company_name": "Accenture",
     "position": "System and Application Services Associate",
-    "date": "24-02-2024",
+    "date" : "February 24, 2024",
     "description": "Accenture is hiring System and Application Services Associates to join their team in various locations. The role involves managing infrastructure services and operations, supporting, monitoring, and maintaining applications and cloud computing systems, project control services, low/no code app development, and quality engineering.",
     "responsibilities": [
       "Manage infrastructure services and operations for on-premises and cloud-based technologies.",
@@ -107,7 +107,8 @@
     "id": 6,
     "company_name": "AXA XL",
     "position": "Graduate Trainee IDA",
-    "date": "26-02-2024",
+    "date" : "February 26, 2024",
+
     "experience": "Freshers",
     "salary": "₹ 3.4 to 4.6 LPA (Expected)",
     "description": "AXA XL is hiring freshers for the role of Graduate Trainee IDA. The job involves utilizing innovation, data, and analytics to solve problems for customers. The ideal candidate should have a passion for innovation, strong academic background, involvement in extracurricular activities, creativity, curiosity, self-learning ability, and adaptability. They should hold at least a BA/BSc or equivalent degree in Data/IT/Computer Science or Math's/Engineering/Sciences, with an understanding of application lifecycles and governance, along with software/coding experience.",
